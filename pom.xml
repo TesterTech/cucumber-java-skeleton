@@ -89,6 +89,8 @@
                              examples and scenarios. -->
                         <configurationParameters>
                             cucumber.junit-platform.naming-strategy=long
+                            cucumber.publish.quiet=true
+                            cucumber.publish.enabled=false
                         </configurationParameters>
                     </properties>
                 </configuration>
