@@ -25,6 +25,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: 
+      run: |
         export API_KEY=$API_KEY
         mvn clean test
